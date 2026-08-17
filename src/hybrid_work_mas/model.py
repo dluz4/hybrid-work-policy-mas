@@ -143,7 +143,7 @@ class HybridWorkModel:
             )
 
 
-    def run(self, days: int = 180) -> list[float]:
+    def run(self, days: int = 365) -> list[float]:
         """
         Run the simulation for the specified number of days.
         """

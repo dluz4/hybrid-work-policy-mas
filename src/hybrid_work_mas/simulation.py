@@ -118,7 +118,7 @@ def build_experiment_design(
     return experiment_design
 
 def run_experiment(
-    simulation_days: int = 180,
+    simulation_days: int = 365,
     n_employees: int = 100,
     initial_engagement: float = 0.21,
     replications: int = DEFAULT_REPLICATIONS,
