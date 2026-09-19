@@ -27,8 +27,26 @@ hybrid-work-policy-mas/
 ├── src/
 │   └── hybrid_work_mas/
 │       ├── __init__.py
-│       └── policies.py
+│       ├── employee.py
+│       ├── model.py
+│       ├── policies.py
+│       └── simulation.py
+├── experiments/
+│   ├── run_initial_engagement_sensitivity.py
+│   └── run_sensitivity.py
+├── results/
+│   ├── experiment_results.csv
+│   ├── experiment_summary.csv
+│   ├── initial_engagement_sensitivity.csv
+│   └── sensitivity_analysis.csv
 ├── tests/
-│   └── test_policies.py
+│   ├── test_employee.py
+│   ├── test_model.py
+│   ├── test_policies.py
+│   └── test_simulation.py
+├── docs/
+│   └── MODEL_FORMULAS.md
+├── app_solara.py
+├── pyproject.toml
 ├── .gitignore
 └── README.md
