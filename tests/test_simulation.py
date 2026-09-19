@@ -168,4 +168,4 @@ def test_initial_daily_engagement_is_correct():
 
     initial = summary[summary["day"] == 0]
 
-    assert (initial["mean_engagement"] == 0.21).all()
+    assert (initial["mean_engagement"] == 0.50).all()

@@ -120,7 +120,7 @@ def build_experiment_design(
 def run_experiment(
     simulation_days: int = 365,
     n_employees: int = 100,
-    initial_engagement: float = 0.21,
+    initial_engagement: float = 0.50,
     replications: int = DEFAULT_REPLICATIONS,
     base_seed: int = DEFAULT_BASE_SEED,
     functional_form: FunctionalForm | str = FunctionalForm.NONLINEAR,

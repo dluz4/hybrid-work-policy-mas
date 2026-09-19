@@ -38,6 +38,7 @@ def run_simulation():
         flexibility=params["flexibility"],
         collaboration=params["collaboration"],
         n_employees=n_employees.value,
+        initial_engagement=0.50,
         seed=seed.value,
     )
 
@@ -322,7 +323,7 @@ def CurrentResults():
         office_days.value
     )
 
-    initial_engagement = 0.21
+    initial_engagement = 0.50
 
     if final_engagement.value is not None:
 

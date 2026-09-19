@@ -18,7 +18,7 @@ class HybridWorkModel:
         flexibility: float,
         collaboration: float,
         n_employees: int = 100,
-        initial_engagement: float = 0.21,
+        initial_engagement: float = 0.50,
         alpha: float = 0.0015,
         beta: float = 0.0015,
         delta: float = 0.0010,
